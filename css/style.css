@@ -532,6 +532,8 @@ html {
     }
      .about .about-me .par p {
         padding-left: 23px;
+        margin-left: 4px;
+
      }
      .footer {
         font-size: 10px;
