@@ -530,8 +530,8 @@ html {
         grid-template-rows: 200px 200px 200px;
  
     }
-     .about .par p {
-        padding-left: 3px;
+     .about .about-me .par p {
+        padding-left: 5px;
      }
     .experince .container .image-exp {
          width: 300px;
