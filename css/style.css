@@ -530,12 +530,16 @@ html {
         grid-template-rows: 200px 200px 200px;
  
     }
-     .about .about-me .par p {
-        padding-left: 23px;
-        margin-left: 4px;
+    .about .about-me .par  {
+        padding-left: 40px;
+        margin-left: 40px;
+        
+      }
+    .about .about-me .par p {
+        
         font-size: 10px;
-
-     }
+    
+    }
      .footer {
         font-size: 10px;
        }
