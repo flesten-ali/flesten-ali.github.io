@@ -1,5 +1,5 @@
 * {
- -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
@@ -316,14 +316,10 @@ html {
 .experince .exps {
     margin-top: 100px;
 }
-.experince .exps .col
- {
-     text-align: center;
-     min-height: 300px;
- }
- .experince .container .image-exp {
+
+.experince .container .image-exp {
     max-width: 100%;
-    min-height:200px ;
+    height: 50%;
     text-align: center;
 
 }
@@ -526,6 +522,33 @@ html {
 }
 
 /* Media */
+@media (max-width :400px){
+    .experince .container
+    {
+        
+        grid-template-columns:200px ;
+        grid-template-rows: 200px 200px 200px;
+ 
+    }
+    .container{
+        width: 300px;
+    }
+    .experince .container .image-exp {
+         width: 300px;
+    
+    }.experince .container .another-text {
+        width: 300px;
+   
+   }
+   .experince .container .exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+
+}
 
 @media(max-width :1060px) {
     .about .about-me {
