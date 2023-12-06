@@ -1,0 +1,544 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --main-color: #e0b973;
+  --second-color: #182540;
+  --main-padding: 100px;
+  --notes-color: #7777;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* common */
+.container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+button a {
+  color: white;
+}
+button {
+  background-color: var(--main-color);
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+  padding: 10px 12px;
+}
+.common-text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.common-text p {
+  text-transform: uppercase;
+  color: var(--notes-color);
+  margin-bottom: 30px;
+}
+
+.common-text h2 {
+  text-transform: uppercase;
+  color: var(--second-color);
+  font-family: serif;
+  font-weight: bold;
+}
+/* START HEADER */
+header {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+}
+/* LINE UNDER THE NAV */
+/* header:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: var(--main-color);
+  z-index: 100;
+  position: absolute;
+} */
+.outer ul li {
+  position: relative;
+  margin: 5px;
+}
+.outer ul li a:hover {
+  color: var(--main-color);
+  font-weight: bold;
+  transition: 0.3s;
+}
+.outer ul li a:hover::before {
+  content: "";
+  height: 2px;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 10px);
+  transform: translateX(-5px);
+  /* to center the line since there is padding 10 10 form the two sizes i subtracted 10 then i want to distrbute this 10 in equlity so 5 from left and 5 from right  */
+}
+
+.active {
+  border-bottom: 2px solid var(--main-color);
+  color: var(--main-color);
+  font-weight: bold;
+}
+header .container {
+  justify-content: space-between;
+  display: flex;
+}
+
+header .logo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 0px 25% 25%;
+}
+header .languages img {
+  border-radius: 50%;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  text-transform: capitalize;
+  padding: 10px;
+  list-style: none;
+}
+header ul li a {
+  color: white;
+}
+header .outer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .outer nav {
+  flex: 1;
+}
+header .outer .languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .outer .languages img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+header .outer .languages img:first-child {
+  object-position: left;
+}
+header .call {
+  background-color: transparent;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 6px;
+}
+/* START OUTERLAYOUT */
+
+.back {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/m.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+
+  background-color: var(--main-color);
+}
+.back .outerlayer {
+  background-color: #7e7c63a3;
+  width: 100%;
+  z-index: 99;
+  height: 100%;
+}
+.back .outertext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  flex-direction: column;
+}
+.back .salutation {
+  margin-left: 90px;
+  width: 100%;
+}
+.back .salutation P:first-child {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.back .salutation p:nth-child(2) {
+  padding: 0px;
+  font-size: 70px;
+  margin: 0px;
+  font-weight: bold;
+  color: white;
+  font-family: serif;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+.back .salutation p:nth-child(3) {
+  margin: 0px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+}
+.back .salutation p:last-child {
+  color: white;
+  max-width: 350px;
+}
+.back button {
+  padding: 10px 12px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: none;
+}
+.outer .media {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--second-color);
+  display: none;
+}
+.back button i {
+  color: var(--second-color);
+}
+/* START ROOMS */
+.rooms {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+
+.rooms .all-rooms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.rooms img {
+  width: 100%;
+  max-width: 100%;
+}
+.room {
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #e0b973;
+  outline: 2px solid #1825402f;
+}
+.room h4 {
+  color: var(--second-color);
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.rooms .all-rooms p {
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+/* facilities */
+.facilities {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+
+.facilities .container #first,
+.facilities .container #second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.facilities .container .image {
+  max-width: 350px;
+  position: relative;
+}
+.facilities .container img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px 4px var(--notes-color);
+}
+.facilities .container .text {
+  margin-top: -15px;
+  padding-left: 20px;
+  flex-basis: 50%;
+}
+.facilities .container .text h5 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--main-color);
+}
+.facilities .container .text p {
+  font-size: 15px;
+  color: var(--second-color);
+  line-height: 1.8;
+  padding: 20px 20px 20px 0px;
+}
+
+.facilities .container #first .image:before {
+  content: "";
+  position: absolute;
+  border: 119px solid var(--main-color);
+  right: -15px;
+  border-radius: 20px;
+  top: -14px;
+  z-index: -1;
+}
+
+.facilities .container #second .image:before {
+  content: "";
+  position: absolute;
+  border: 119px solid var(--main-color);
+  left: -15px;
+  border-radius: 20px;
+  bottom: -14px;
+  z-index: -1;
+}
+/* Testimonials */
+.testimonials {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+.testimonials .feed img:first-child {
+  width: 70px;
+}
+.testimonials .feed img:last-child {
+  width: 100px;
+}
+.testimonials .feed {
+  display: flex;
+  justify-content: space-around;
+}
+.testimonials .feed p {
+  padding-top: 10px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+.testimonials .feed p span {
+  font-weight: bold;
+}
+.testimonials .feed > * {
+  flex-basis: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 6px 4px 7px 2px var(--main-color);
+  margin: 10px;
+}
+/* FAQ */
+.faq {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+.faq .q {
+  perspective: 600px;
+  /* for 3d rotation */
+}
+.faq .q p {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: var(--second-color);
+}
+.faq .q i {
+  color: var(--second-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq .q > * {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  transform-style: preserve-3d;
+  /* save your place when it rotate */
+  transition: 1s;
+  transform-origin: right center;
+  /* orgin of the transform */
+  margin-bottom: 20px;
+}
+.faq .q .question {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 100px);
+  text-align: left;
+  box-shadow: 6px 4px 7px 2px var(--main-color);
+  border-radius: 15px;
+}
+.faq .answer,
+.faq .question {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+  margin: 0px !important;
+  backface-visibility: hidden;
+  /* donot show the back side now */
+  color: var(--second-color);
+}
+
+.faq .answer {
+  box-shadow: 6px 4px 7px 2px var(--main-color);
+  border-radius: 15px;
+  transform: rotateY(180deg);
+}
+
+.faq .q > *:hover {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+/* Contact us */
+.contact-us {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+.contact-us .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us .content form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 400px));
+  grid-template-areas:
+    "name email"
+    "subject subject"
+    "massege massege";
+  gap: 20px;
+}
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid var(--notes-color);
+  border-radius: 5px;
+}
+::placeholder {
+  font-size: 20px;
+  padding: 10px;
+}
+.contact-us .content input[type="text"]:first-child {
+  grid-area: name;
+}
+.contact-us .content input[type="email"] {
+  grid-area: email;
+}
+.contact-us input[type="text"]:not(:first-child) {
+  grid-area: subject;
+}
+textarea {
+  grid-area: massege;
+  resize: vertical;
+}
+.contact-us input[type="submit"] {
+  width: fit-content;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid var(--main-color);
+}
+/* footer */
+footer {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+  background-color: var(--second-color);
+}
+
+footer .footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+}
+footer .logo {
+  text-align: center;
+}
+footer .logo img {
+  max-width: 100px;
+}
+footer .logo p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+footer .general {
+  text-align: center;
+}
+footer .links,
+footer .social,
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .links a {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+footer .social {
+  text-align: center;
+}
+footer .social i {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+}
+footer .contact .info p:not(:first-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .contact .info p {
+  text-transform: uppercase;
+
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+footer .contact .info p i {
+  margin-right: 5px;
+}

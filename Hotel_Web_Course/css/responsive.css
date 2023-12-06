@@ -1,0 +1,117 @@
+/*---------------- MEDIA QUERY  1 ------------------- */
+/* Header */
+@media (max-width: 820px) {
+  header .active {
+    border: none;
+  }
+  header .outer {
+    flex: initial;
+    position: relative;
+  }
+  .outer ul li a:hover::before {
+    display: none;
+  }
+  .outer nav {
+    position: absolute;
+    top: 100%;
+    display: none;
+  }
+  .outer nav ul {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #18254021;
+  }
+  .outer .media {
+    display: block;
+    margin-right: 20px;
+  }
+  .outer:hover nav {
+    display: block;
+  }
+  .back .salutation p:nth-child(2) {
+    font-size: 60px;
+  }
+}
+@media (max-width: 400px) {
+  .back .salutation p:nth-child(2) {
+    font-size: 30px;
+  }
+  .back .salutation p:not(:nth-child(2)) {
+    font-size: 15px;
+  }
+
+  .button {
+    font-size: 10px !important;
+  }
+  header .logo img {
+    height: 50px;
+    width: 50px;
+  }
+}
+/* facilities */
+@media (max-width: 740px) {
+  .facilities .container #first,
+  .facilities .container #second {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .facilities .container .image {
+    max-width: 90% !important;
+  }
+  .facilities .container .text {
+    padding-left: 40px;
+  }
+  .facilities .container #second .image:before,
+  .facilities .container #first .image:before {
+    display: none;
+  }
+  .facilities .container .text h5 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .facilities .container #second .text {
+    order: -1;
+  }
+  .facilities .container .text h5 p {
+    margin-top: 0px;
+    max-width: 100%;
+  }
+}
+/* Testimonials */
+@media (max-width: 620px) {
+  .testimonials .feed {
+    flex-direction: column;
+  }
+}
+
+/* FAQ */
+@media (max-width: 600px) {
+  .faq .q > * {
+    height: 150px;
+  }
+}
+@media (max-width: 650px) {
+  .faq .q p {
+    font-size: 15px;
+  }
+}
+/* contact us */
+@media (max-width: 500px) {
+  .contact-us .content form {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "name"
+      "email"
+      "subject"
+      "massege";
+  }
+}
+/* footer  */
+@media (max-width: 560px) {
+  footer .footer {
+    grid-template-columns: repeat(1, minmax(auto, 1fr));
+
+    gap: 20px;
+  }
+}

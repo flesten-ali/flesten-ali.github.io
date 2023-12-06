@@ -119,6 +119,7 @@ html {
 }
 
 .header .container .link:hover ul {
+    
     display: block;
 
 }
@@ -493,7 +494,7 @@ html {
 
 .contact .contact-me .cont i {
     margin-left: 10px;
-    
+
 }
 
 /* Footer */
@@ -522,32 +523,38 @@ html {
 }
 
 /* Media */
-@media (max-width :500px){
-    .experince .container
-    {
-        
-        grid-template-columns:200px ;
+@media (max-width :500px) {
+    .experince .container {
+
+        grid-template-columns: 200px;
         grid-template-rows: 200px 200px 200px;
- 
+
     }
+
     
-     .footer {
-        font-size: 10px;
-       }
+
     .experince .container .image-exp {
-         width: 300px;
-    
-    }.experince .container .another-text {
         width: 300px;
-   
-   }
-   .experince .container .exp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   }
-   
+
+    }
+
+    .experince .container .another-text {
+        width: 300px;
+
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .experince .container .exp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
 
 }
 
@@ -579,7 +586,7 @@ html {
 
 
     }
-     
+
     .contact .contact-me .cont p {
         font-size: 11px;
         text-align: center;
@@ -587,13 +594,16 @@ html {
 
 
     }
+
     .contact .contact-me a {
         font-size: 22px;
 
     }
+
     .contact .contact-me .first-par {
         font-size: 18px;
     }
+
     .footer p {
         font-size: 10px;
 
@@ -615,7 +625,7 @@ html {
 }
 
 @media (min-width:768px) {
-   
+
 
     .content {
         height: calc(100vh - 480px);
