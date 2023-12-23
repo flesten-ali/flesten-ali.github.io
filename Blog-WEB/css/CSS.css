@@ -168,7 +168,7 @@ header nav i:first-child {
   background-color: #0925323a;
   width: 100%;
   height: 100vh;
-  background-image: url(/images/361421327_816307750080842_1883648468147260945_n.jpg);
+  background-image: url(../images/361421327_816307750080842_1883648468147260945_n.jpg);
   position: relative;
 }
 
@@ -304,7 +304,7 @@ h2 {
 }
 
 .languages {
-  background-image: url(/images/89125.jpg);
+  background-image: url(../images/89125.jpg);
   background-size: cover;
   height: 95vh;
   position: relative;
@@ -507,7 +507,7 @@ h2 {
 }
 
 .social .outer-social {
-  background-image: url(/images/LM-Gradient\ background\ -\ Apps\ on\ Galaxy\ Store\ _\ Iphone\ wallpaper\ planets\,\ Iphone\ wallpaper\ sky\,\ Iphone\ wallpaper\ violet.jpg);
+  background-image: url(../images/LM-Gradient\ background\ -\ Apps\ on\ Galaxy\ Store\ _\ Iphone\ wallpaper\ planets\,\ Iphone\ wallpaper\ sky\,\ Iphone\ wallpaper\ violet.jpg);
   background-size: cover;
   height: 300px;
   position: relative;
@@ -671,7 +671,7 @@ h2 {
 }
 
 .ground .inner-groung {
-  background-image: url(/images/Free\ Vector\ _\ Green\ fluid\ background\ frame\ vector.jpg);
+  background-image: url(../images/Free\ Vector\ _\ Green\ fluid\ background\ frame\ vector.jpg);
   background-size: cover;
   height: 70vh;
   position: relative;
@@ -842,7 +842,7 @@ h2 {
 .outer-back {
   padding-top: var(--main-padding);
   padding-bottom: var(--main-padding);
-  background-image: url(/images/Download\ free\ vector\ of\ Gray\ hexagon\ geometric\ pattern\ background\ vector\ by\ katie\ about\ hexagon\,\ product\ backdrop\,\ white\ hexagonal\ background\ design\,\ hexagon\ texture\,\ and\ abstract\ 586354.jpg);
+  background-image: url(../images/Download\ free\ vector\ of\ Gray\ hexagon\ geometric\ pattern\ background\ vector\ by\ katie\ about\ hexagon\,\ product\ backdrop\,\ white\ hexagonal\ background\ design\,\ hexagon\ texture\,\ and\ abstract\ 586354.jpg);
   background-size: cover;
 }
 
@@ -990,7 +990,7 @@ h2 {
 .foot {
   padding-top: calc(var(--main-padding) / 2);
   padding-bottom: calc(var(--main-padding) / 2);
-  background-image: url(/images/Flat\ Education\ Office\ Stationery\ Background\,\ Flat\,\ Education\,\ Office\ Stationery\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg);
+  background-image: url(../images/Flat\ Education\ Office\ Stationery\ Background\,\ Flat\,\ Education\,\ Office\ Stationery\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg);
   background-size: cover;
   text-align: center;
   position: relative;
