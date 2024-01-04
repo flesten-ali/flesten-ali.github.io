@@ -22,8 +22,9 @@ lettersArray.forEach((letter) => {
 const words = {
   Programming: ["JavaScript", "HTML", "CSS", "C++", "JAVA", "PHP", "Python"],
   Numbers: ["One", "Two", "One Hundred", "Three", "Fourteen"],
-  Names: ["Falastin", "Ali", "Mohamed", "Khaled", "Erkan", "Fatima"],
+  Names: ["Falastin", "Ali", "Mohamed", "Khaled", "Bian", "Fatima"],
   Countries: ["Palestine", "Yemen", "Egypt", "Turkey"],
+  languages: ["Arabic", "English", "Turkish"],
 };
 // Get All the property names from the Object(Arr of keys)
 
