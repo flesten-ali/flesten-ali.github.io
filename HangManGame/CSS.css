@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --main-border: 4px;
+  --main-color: black;
+}
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+.row {
+  display: flex;
+}
+.game-info {
+  display: flex;
+  justify-content: space-between;
+}
+.game-info .category span {
+  text-transform: capitalize;
+  color: crimson;
+}
+hr {
+  border: 1px solid #7777774f;
+}
+.hangman-draw {
+  background-color: #7777774f;
+  flex: 1;
+  padding: 15px;
+  height: 350px;
+}
+.hangman-draw .the-draw {
+  position: relative;
+  height: 300px;
+  width: 100px;
+  margin: auto;
+  border-bottom: var(--main-border) solid var(--main-color);
+  margin-right: 212px;
+  display: none;
+}
+.the-draw .the-stand {
+  height: 100%;
+  width: var(--main-border);
+  background-color: var(--main-color);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+.the-draw .the-hang {
+  width: 100px;
+  height: var(--main-border);
+  background-color: var(--main-color);
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  display: none;
+}
+.the-draw .the-hang::after {
+  position: absolute;
+  content: "";
+  width: var(--main-border);
+  height: 50px;
+  background-color: var(--main-color);
+  left: 97px;
+  top: 0px;
+}
+.the-draw .the-rope {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 111px;
+  top: 56px;
+  display: none;
+
+  border: var(--main-border) dashed var(--main-color);
+}
+.the-draw .the-man .head {
+  width: 50px;
+  height: 50px;
+  display: none;
+
+  border-radius: 50%;
+  position: absolute;
+  left: 126px;
+  top: 71px;
+  border: var(--main-border) solid var(--main-color);
+}
+.the-draw .the-man .body {
+  display: none;
+
+  background-color: var(--main-color);
+  height: 100px;
+  width: var(--main-border);
+  position: absolute;
+  left: 150px;
+  top: 119px;
+}
+.the-draw .the-man .hands {
+  display: none;
+}
+
+.the-draw .the-man .hands:after,
+.the-draw .the-man .hands::before {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  height: 50px;
+  width: var(--main-border);
+  top: 142px;
+}
+.the-draw .the-man .hands:after {
+  left: 162px;
+  rotate: 30deg;
+}
+.the-draw .the-man .hands::before {
+  left: 137px;
+  rotate: -30deg;
+}
+.the-draw .the-man .legs {
+  display: none;
+}
+.the-draw .the-man .legs:after,
+.the-draw .the-man .legs::before {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  height: 50px;
+  width: var(--main-border);
+  top: 213px;
+}
+.the-draw .the-man .legs:after {
+  left: 162px;
+  rotate: -30deg;
+}
+.the-draw .the-man .legs::before {
+  left: 137px;
+  rotate: 30deg;
+}
+
+.row .letters {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+.row .letters .letter-box {
+  height: 60px;
+  width: 60px;
+  background-color: darkolivegreen;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 42px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0px 10px 10px 0px;
+}
+
+.letters-guess {
+  padding: 15px;
+  margin: 10px auto;
+  display: flex;
+  background-color: #7777774f;
+  justify-content: center;
+  align-items: center;
+}
+.letters-guess span {
+  height: 50px;
+  width: 50px;
+  background-color: aliceblue;
+  font-size: 30px;
+  color: var(--main-color);
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: var(--main-border) solid darkolivegreen;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.letters-guess span.space {
+  background-color: transparent;
+  border-bottom: none;
+  position: relative;
+}
+.letters-guess span.space:after {
+  content: "";
+  height: var(--main-border);
+  width: 20px;
+  background-color: var(--main-color);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.letter-box.clicked {
+  background-color: var(--main-color);
+  opacity: 0.3;
+  /* Not react with another pointer clicking again  */
+  pointer-events: none;
+}
+/* Wrong Apperance */
+
+.hangman-draw.wrong-1 .the-draw {
+  display: block;
+}
+.hangman-draw.wrong-2 .the-stand {
+  display: block;
+}
+.hangman-draw.wrong-3 .the-hang {
+  display: block;
+}
+
+.hangman-draw.wrong-4 .the-rope {
+  display: block;
+}
+.hangman-draw.wrong-5 .head {
+  display: block;
+}
+.hangman-draw.wrong-6 .body {
+  display: block;
+}
+.hangman-draw.wrong-7 .hands {
+  display: block;
+}
+.hangman-draw.wrong-8 .legs {
+  display: block;
+}
+.letters.finish {
+  /* Couldnot click the letters if the game finished */
+  pointer-events: none;
+}
+.Game-Over-fail,
+.Game-Over-success {
+  width: 900px;
+  margin: -30px auto;
+  background-color: red;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+.Game-Over-fail {
+  background-color: red;
+}
+.Game-Over-success {
+  background-color: green;
+}
