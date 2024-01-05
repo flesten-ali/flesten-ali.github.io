@@ -102,6 +102,7 @@ document.addEventListener("click", (e) => {
       if (wrongCount == 8) {
         endTheGameWithFail();
         lettersContainer.classList.add("finish");
+        startAgain();
       }
     } else {
       //   True Letter Sound
@@ -110,6 +111,7 @@ document.addEventListener("click", (e) => {
       if (correctCount == theChosenWord.length) {
         endTheGameWithSuccess();
         lettersContainer.classList.add("finish");
+        startAgain();
       }
     }
   }
@@ -144,4 +146,22 @@ function endTheGameWithSuccess() {
   finishDiv.className = "Game-Over-success";
   // append to the body
   document.body.appendChild(finishDiv);
+}
+function startAgain() {
+  // Creat button
+  let button = document.createElement("button");
+  //  creat TextNode
+  let text = document.createTextNode("start");
+  // append
+
+  button.className = "start";
+  button.appendChild(text);
+
+  document.body.appendChild(button);
+  // button.onclick = function () {
+  //   window.location.reload();
+  // };
+  button.addEventListener("click", () => {
+    window.location.reload();
+  });
 }

@@ -252,3 +252,18 @@ hr {
 .Game-Over-success {
   background-color: green;
 }
+.start {
+  text-transform: uppercase;
+  background-color: darkolivegreen;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 42px auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
