@@ -1,0 +1,186 @@
+:root {
+  --main-color: #19283fda;
+  --second-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --light-color: #eff7fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 5000px;
+}
+.main-btn {
+  color: var(--yellow-color);
+  background-color: var(--red-color);
+  padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+.navbar {
+  background-color: var(--main-color);
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--second-color);
+}
+.navbar img,
+.footer img {
+  width: 100px;
+}
+.navbar .search {
+  border-left: 1px solid var(--second-color);
+}
+.navbar .search svg {
+  color: var(--second-color);
+}
+.navbar .navbar-toggler {
+  color: white;
+  border-color: white;
+  font-size: 20px;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--second-color);
+}
+
+.landing {
+  background-color: var(--main-color);
+  min-height: calc(100vh - 88px);
+}
+.landing h1 {
+  letter-spacing: 3px;
+}
+.main-text::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 120px;
+  background-color: var(--second-color);
+  left: 50%;
+  top: 150px;
+  transform: translateX(-50%);
+}
+.main-text svg {
+  color: var(--yellow-color);
+}
+.features .icon-holder {
+  height: 200px;
+}
+.features .row svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .row svg.number {
+  font-size: 12rem;
+  color: var(--light-color);
+}
+.features .row svg.pincle {
+  color: var(--second-color);
+}
+.features h3 {
+  color: var(--yellow-color);
+}
+.works {
+  background-color: var(--light-color);
+}
+.works ul li.active {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+.works ul li {
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+.works ul li:hover:not(.active) {
+  color: var(--red-color);
+}
+
+.works .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.works .box::before {
+  content: attr(data-work);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #33d1cc8c;
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  transition: 0.3s;
+  transform: translateX(calc(-100% - 5px));
+}
+.works .box:hover:before {
+  transform: translateX(0);
+}
+.stuff .description {
+  max-width: 400px;
+}
+.team {
+  background-color: var(--light-color);
+}
+.team h2 {
+  color: var(--yellow-color);
+}
+.team h4 {
+  background-color: var(--second-color);
+}
+.projects {
+  background-color: var(--main-color);
+}
+.subscribe {
+  background-color: var(--yellow-color);
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe input[type="text"]::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: #19283fda;
+  color: var(--yellow-color);
+}
+.footer {
+  background-color: var(--main-color);
+}
+.footer .copyright p span {
+  color: var(--second-color);
+}
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+.footer ul li svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0a66c2;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
