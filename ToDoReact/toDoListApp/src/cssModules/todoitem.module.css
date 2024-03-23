@@ -1,0 +1,21 @@
+.item {
+  box-shadow: 0 6px 20px rgb(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: darkslategrey;
+  cursor: pointer;
+}
+.item button {
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+}

@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  background-color: cadetblue;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+  margin-top: 40px;
+}
+.footer h3 {
+  padding: 10px;
+  color: white;
+  margin: 20px;
+}
