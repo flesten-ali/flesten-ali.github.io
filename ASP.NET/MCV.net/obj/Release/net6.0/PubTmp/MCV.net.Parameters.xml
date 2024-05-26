@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="MCVnet20240510160058" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\User\\Desktop\\Practice\.Net\ -\ Copy\\MCV\.net\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
-  </parameter>
-  <parameter name="MCV.net.Data.AuthDbContext" description="" value="Data Source=tcp:falastinserver.database.windows.net,1433;Initial Catalog=myDatabase;User Id=myamin@falastinserver;Password=FaloBw_795222541" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\User\\Desktop\\Practice\.Net\ -\ Copy\\MCV\.net\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\MCV\.net\.Data\.AuthDbContext\.sql$" />
-  </parameter>
-</parameters>
