@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm1NgUe73P0m9SjWW9H5cHAAAAAACAAAAAAAQZgAAAAEAACAAAAApDHAsMblg04cAnWPeA81lm5+4/fn7WcOvpoiw4oNLZQAAAAAOgAAAAAIAACAAAAD4vtihkAsH1ESaogJ3MT+W5F80/HfNoMgeLTDqysjtDIAAAACI3GnMdzWP+uYLyTugWLp3ViMgY4UpxvQGJ89YQxkCiaMkzCAOgngha/Ggs6h/VKwxNFELsqAGfwKY6Dz8hzM/ZG2LQIQPkyY/kdWob4v+1mxblmNbvHpdbAg4XEjzfHPdTUFse+5IoAhcjVVhj1lb296JJ+qN7SXNhp3uT1veK0AAAAB38IE52QHWJW9SSCo0YxA1dCULXQiOAiGwA4+USHbMTBd9jdu5aXKFKfO7PpCv36XEAivtsKIAi7F5WOeDrKGb</EncryptedPassword>
+    <History>True|2024-05-10T13:36:51.9177964Z;True|2024-05-10T16:21:18.1899272+03:00;True|2024-05-10T16:16:12.7693269+03:00;False|2024-05-10T16:13:06.6858015+03:00;False|2024-05-10T16:07:18.0565821+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectionStrings">
+      <Value>Server=tcp:falastinserver.database.windows.net,1433%3bInitial Catalog=myDatabase%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:falastinserver.database.windows.net,1433%3bInitial Catalog=myDatabase%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MCV.net.Data.ApplicationDbContext">
+      <Value>Server=tcp:falastinserver.database.windows.net,1433%3bInitial Catalog=myDatabase%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+SELECT TOP (1000) [Id]
+      ,[Name]
+      ,[DisplayOrder]
+      ,[CreatDateTime]
+  FROM [myData].[dbo].[ModleTable]

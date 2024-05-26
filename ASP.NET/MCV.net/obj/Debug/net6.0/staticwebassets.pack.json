@@ -1,0 +1,485 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MCV.net.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MCV.net.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\0b80600e-c69f-4689-ad83-54b23b799c02_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\0b80600e-c69f-4689-ad83-54b23b799c02_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\16ece787-8f34-4db1-a8b7-77394617a552_Software Project.docx (1) (2).pdf",
+      "PackagePath": "staticwebassets\\PDF\\16ece787-8f34-4db1-a8b7-77394617a552_Software Project.docx (1) (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\1af608f5-49c4-4031-bc20-9b655d8f3d24_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\1af608f5-49c4-4031-bc20-9b655d8f3d24_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\1d781290-8e24-43f2-9a1c-b18edcec3540_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\1d781290-8e24-43f2-9a1c-b18edcec3540_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\1fb27332-a979-41a8-b063-d8772704a435_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\1fb27332-a979-41a8-b063-d8772704a435_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\250cd50a-35ea-4e60-b489-4a6f7be121d5_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\250cd50a-35ea-4e60-b489-4a6f7be121d5_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\25d9ab5c-a23e-4943-a234-d7d465ec00a7_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\25d9ab5c-a23e-4943-a234-d7d465ec00a7_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\2c91399f-01de-4b4a-a5e6-6eec1b8f0682_Software Project.docx (1) (2).pdf",
+      "PackagePath": "staticwebassets\\PDF\\2c91399f-01de-4b4a-a5e6-6eec1b8f0682_Software Project.docx (1) (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\32617ccd-bcb7-4f7f-8acc-5d6a153d8a42_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\32617ccd-bcb7-4f7f-8acc-5d6a153d8a42_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\334baafb-49f6-4ba4-826e-d42ab76fe060_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\334baafb-49f6-4ba4-826e-d42ab76fe060_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\377d5fe3-849f-48db-bc5a-fdbe632ca890_signals-ch5-fourier transform-pdf.pdf",
+      "PackagePath": "staticwebassets\\PDF\\377d5fe3-849f-48db-bc5a-fdbe632ca890_signals-ch5-fourier transform-pdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\3943fd9a-e9fe-47c0-8cda-59b97a76810d_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\3943fd9a-e9fe-47c0-8cda-59b97a76810d_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\44154acf-0dc9-4674-ab57-3b42d8a3a9ec_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\44154acf-0dc9-4674-ab57-3b42d8a3a9ec_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\45111418-def0-4fbc-82c9-cd1f381b0aa6_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\45111418-def0-4fbc-82c9-cd1f381b0aa6_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\5aad7cf8-6376-463a-96bc-59404b12285f_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\5aad7cf8-6376-463a-96bc-59404b12285f_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\5ac28746-6647-4a90-ab40-e1b164eb290f_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\5ac28746-6647-4a90-ab40-e1b164eb290f_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\5ad37df8-0175-4c13-b173-a66b3e9dfd4b_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\5ad37df8-0175-4c13-b173-a66b3e9dfd4b_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\6c46e1ce-ccc1-44c0-8c70-ca708cb141bc_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\6c46e1ce-ccc1-44c0-8c70-ca708cb141bc_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\6f622c32-ad3d-4b16-8759-76dfbe717863_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\6f622c32-ad3d-4b16-8759-76dfbe717863_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\6f72081f-c563-4371-bbfd-4a4e67ab8ef9_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\6f72081f-c563-4371-bbfd-4a4e67ab8ef9_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\71960234-40f3-4187-92e4-698f5e17231a_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\71960234-40f3-4187-92e4-698f5e17231a_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\725b4a1d-82db-4f6e-b3d5-1ea99f315448_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\725b4a1d-82db-4f6e-b3d5-1ea99f315448_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\740dbe41-cdef-48a2-b12d-5b3160ec43c7_5d856908cbafa.pdf",
+      "PackagePath": "staticwebassets\\PDF\\740dbe41-cdef-48a2-b12d-5b3160ec43c7_5d856908cbafa.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\7e705acf-7473-4cbd-a243-6b35a5393e8e_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\7e705acf-7473-4cbd-a243-6b35a5393e8e_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\8510eb3f-40fe-43f4-949f-01699e35bd1c_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\8510eb3f-40fe-43f4-949f-01699e35bd1c_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\85f29a05-0108-4838-8ccd-cb325a9d07f5_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\85f29a05-0108-4838-8ccd-cb325a9d07f5_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\8db0b3e0-31e0-4e90-af20-c4caedd75e8c_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\8db0b3e0-31e0-4e90-af20-c4caedd75e8c_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\9374f10f-c39b-46ab-8d69-3f646a8572db_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\9374f10f-c39b-46ab-8d69-3f646a8572db_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\943e0146-c1f0-474d-80d0-a64e687b24d3_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\943e0146-c1f0-474d-80d0-a64e687b24d3_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\95fd7775-dbba-45d4-8bf4-20f1239a3d4f_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\95fd7775-dbba-45d4-8bf4-20f1239a3d4f_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\997bc543-5e42-4ff0-a85b-36cb6c85b0fd_Software Project.docx (2).pdf",
+      "PackagePath": "staticwebassets\\PDF\\997bc543-5e42-4ff0-a85b-36cb6c85b0fd_Software Project.docx (2).pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\a42671a5-a8c3-450c-9bfd-e624b305a65a_HASHEMZEREICV-5.pdf",
+      "PackagePath": "staticwebassets\\PDF\\a42671a5-a8c3-450c-9bfd-e624b305a65a_HASHEMZEREICV-5.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\a5f8b779-c888-4ca7-a20e-e33171a52a7a_Software Project.docx (1).pdf",
+      "PackagePath": "staticwebassets\\PDF\\a5f8b779-c888-4ca7-a20e-e33171a52a7a_Software Project.docx (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\a6b2bfa9-cc04-4c3b-894d-140ed4942ae9_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\a6b2bfa9-cc04-4c3b-894d-140ed4942ae9_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\abe7532d-476a-484e-9037-0b37b2cf9b51_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\abe7532d-476a-484e-9037-0b37b2cf9b51_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\b7225e60-0ba4-40b2-b091-4138bc7e2b33_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\b7225e60-0ba4-40b2-b091-4138bc7e2b33_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\b7478933-d046-4342-83b1-73abc4f179ec_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\b7478933-d046-4342-83b1-73abc4f179ec_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\bcedddee-3f73-4ffd-9d6a-f41e6f0d2ece_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\bcedddee-3f73-4ffd-9d6a-f41e6f0d2ece_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\c4a78b16-df7b-4cb9-9206-b60cf74fca02_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\c4a78b16-df7b-4cb9-9206-b60cf74fca02_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\c77265ba-492a-4c8b-9635-166329bc502f_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\c77265ba-492a-4c8b-9635-166329bc502f_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\cd9f9cf8-faaa-48e6-8fbb-de71f46b1856_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\cd9f9cf8-faaa-48e6-8fbb-de71f46b1856_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\d23f9eac-0f3a-4da1-a0e5-cd7ee9c62d7b_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\d23f9eac-0f3a-4da1-a0e5-cd7ee9c62d7b_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\d7832ff9-efb2-4486-b60c-1609084135a1_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\d7832ff9-efb2-4486-b60c-1609084135a1_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\dea446ba-cc09-4c75-aa8a-3c74adbb4345_ControlSolutionHW1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\dea446ba-cc09-4c75-aa8a-3c74adbb4345_ControlSolutionHW1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\dfc8ff79-b13d-414b-990a-0fc666a0e8f9_FALASTIN BAWAQNA CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\dfc8ff79-b13d-414b-990a-0fc666a0e8f9_FALASTIN BAWAQNA CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\e019f59a-1576-486a-9dfa-82f0daad1e57_جدول+الامتحانات+النهائية+للمساقات+العملية_e833f1cc08356e335826e8faf04205b3.pdf",
+      "PackagePath": "staticwebassets\\PDF\\e019f59a-1576-486a-9dfa-82f0daad1e57_جدول+الامتحانات+النهائية+للمساقات+العملية_e833f1cc08356e335826e8faf04205b3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\e1323181-252e-4af7-830d-2d1589560de8_Software Project.docx (1) (1).pdf",
+      "PackagePath": "staticwebassets\\PDF\\e1323181-252e-4af7-830d-2d1589560de8_Software Project.docx (1) (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\e8bd8ba0-b9a6-40cc-b248-f9131bcf7eef_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\e8bd8ba0-b9a6-40cc-b248-f9131bcf7eef_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\ea1fa0fa-61c0-4dbe-bfe3-a6f15b446859_Software Project (3).pdf",
+      "PackagePath": "staticwebassets\\PDF\\ea1fa0fa-61c0-4dbe-bfe3-a6f15b446859_Software Project (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\ea57e0de-5823-4ae3-b8a9-a09be7d43e9c_2764606_HASHEMZEREICVdocx.pdf",
+      "PackagePath": "staticwebassets\\PDF\\ea57e0de-5823-4ae3-b8a9-a09be7d43e9c_2764606_HASHEMZEREICVdocx.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\f8d96149-9565-46e5-bc66-5b0684502a95_FALASTIN BAWAQNA CV-1.pdf",
+      "PackagePath": "staticwebassets\\PDF\\f8d96149-9565-46e5-bc66-5b0684502a95_FALASTIN BAWAQNA CV-1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\PDF\\f9e7c63b-d6f3-4f5a-8fc2-42494b7641f1_FALASTIN BAWAQNA CV - Copy.pdf",
+      "PackagePath": "staticwebassets\\PDF\\f9e7c63b-d6f3-4f5a-8fc2-42494b7641f1_FALASTIN BAWAQNA CV - Copy.pdf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\css\\bootsWatch.css",
+      "PackagePath": "staticwebassets\\css\\bootsWatch.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\images\\Untitled-1 copy.svg",
+      "PackagePath": "staticwebassets\\images\\Untitled-1 copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\images\\h1_hero.png",
+      "PackagePath": "staticwebassets\\images\\h1_hero.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Practice.Net - Copy\\MCV.net\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MCV.net.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MCV.net.props",
+      "PackagePath": "build\\MCV.net.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MCV.net.props",
+      "PackagePath": "buildMultiTargeting\\MCV.net.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MCV.net.props",
+      "PackagePath": "buildTransitive\\MCV.net.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

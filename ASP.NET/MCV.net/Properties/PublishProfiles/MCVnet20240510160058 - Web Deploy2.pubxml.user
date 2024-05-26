@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAj1lmgmFGU6L5s1vFH1I8AAAAAACAAAAAAAQZgAAAAEAACAAAAA7vm1hJn+Y1IJ0d3IAbtTlQ1bXbUHpqeFzXlP7j+ok2QAAAAAOgAAAAAIAACAAAAAHjR9H9Eb7Civu0UyPaJasn6LNiSxPfw0X4GzcwmWUrYAAAAA1eU+0E/eQh1zNAmcv0/W5wsNOccbBgwcfqL/Tr+kwfS8eXvHTEPUWAeU4O9KE/jze69ql6pR0NnMbPFHP3VK2itNpSwtLwcvjjpOC/rHtZY4IufbSqSTOLUaTdAp+UREmfCmGwv2AMu2UvXUL0tAL1TA0pT+hTwuhDE8JVkiZiEAAAACXHJu2X0n/sDcZatmzrwlhjWNkH2EynG/b6pTUiIbYv9jOM6HwueXfr/uXkUsAZZObCmRwMqRny4+cccwT4biR</EncryptedPassword>
+    <History>True|2024-05-26T18:04:51.6463003Z;False|2024-05-26T20:57:21.5756717+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AuthDbConnectionString">
+      <Value>Server=tcp:falastinserver.database.windows.net,1433%3bInitial Catalog=myDatabase%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ConnectionStrings">
+      <Value>Server=tcp:falastinserver.database.windows.net,1433%3bInitial Catalog=myDatabase%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=WX1094183%3bDatabase=AuthDatabase%3bTrusted_Connection=True%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MCV.net.Data.AuthDbContext">
+      <Value>Server=tcp:falastinserver.database.windows.net,1433%3bInitial Catalog=myDatabase%3bPersist Security Info=False%3bUser ID=myadmin%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

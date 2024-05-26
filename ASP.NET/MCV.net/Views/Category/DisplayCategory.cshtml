@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MCV.net.Models.Project>
+ 
+<br />
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Owner</th>
+                <th>DateOfPublish  </th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int index = 1;
+            }
+            @foreach (var project in Model)
+            {
+                        <tr>
+                            <td>@index - @project.Title</td>
+                            <td>@project.User?.UserName</td>
+                            <td>@project.DateOfPublish?.ToString("dd-MM-yyyy")</td>
+                             <td>
+                        <a asp-action="ProjectDetails" asp-route-projectId="@project.projectId">View Project </a>
+                             </td>
+                         
+                         </tr>
+                index++;
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <p>No projects found for this category.</p>
+}
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial"></partial>
+    }
+}

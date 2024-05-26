@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAj1lmgmFGU6L5s1vFH1I8AAAAAACAAAAAAAQZgAAAAEAACAAAACiXRP6dghhesS8wphF9UWt1PUHvHVMLSnJ5uNz4/ndtQAAAAAOgAAAAAIAACAAAABGbgt/nhtrR5aU+98jY/d0QeiQZyhEjTKfU1tEyt04n4AAAACTqy3lI40UYwDCTEJLjmzGSlrNiNuOaS5D/aB9r5yzsRf2s00uJi+dl6cu0A24sVsvMXTu9YLchD1fbNr+oloQBKRN0GOcT615CzQSXc6byNzXQpQd3bvrSKi2YFETTFkAuXoUkpvjOnPqTRomnzKxLkOB+CxWbnrHQ4/epS6YFkAAAAABIOfQwJwNPjv7XoE08C/KbrCFMNUcAJfd4qAjsu6+nlGm8S6vcCZEHy96WGiMzRLkb3bZbimr7NshgTpgp/i9</EncryptedPassword>
+    <History>False|2024-05-26T17:54:03.7235071Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AuthDbConnectionString">
+      <Value>Server=tcp:auths.database.windows.net,1433%3bInitial Catalog=AuthDatabase%3bPersist Security Info=False%3bUser ID=flesten%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ConnectionStrings">
+      <Value>Server=tcp:auths.database.windows.net,1433%3bInitial Catalog=AuthDatabase%3bPersist Security Info=False%3bUser ID=flesten%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:auths.database.windows.net,1433%3bInitial Catalog=AuthDatabase%3bPersist Security Info=False%3bUser ID=flesten%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MCV.net.Data.ApplicationDbContext">
+      <Value>Server=tcp:auths.database.windows.net,1433%3bInitial Catalog=AuthDatabase%3bPersist Security Info=False%3bUser ID=flesten%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="MCV.net.Data.AuthDbContext">
+      <Value>Server=tcp:auths.database.windows.net,1433%3bInitial Catalog=AuthDatabase%3bPersist Security Info=False%3bUser ID=flesten%3bPassword=FaloBw_795222541%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
